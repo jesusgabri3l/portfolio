@@ -15,7 +15,7 @@ const projects = [
         id: 1,
         name: 'Portfolio',
         img: portfolio,
-        code: '',
+        code: 'https://github.com/jesusgabri3l/portfolio',
         website: '',
         tags: ['Next.js', 'BEM', 'Tailwind', 'SSR']
     },
