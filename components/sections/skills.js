@@ -48,7 +48,7 @@ export default function Skills() {
               </article>
               <article className="skill">
                 <h3 className="title is-blue font-bold text-center text-2xl">Complements</h3>
-                <p className="subtitle is-black mt-5 text-center leading-7">These are technologies that i have tried out, so my knowledges are basic about them, but i'm able to get in deep if need it.</p>
+                <p className="subtitle is-black mt-5 text-center leading-7">These are technologies that i have tried out, so my knowledges are basic about them, but i am able to get in deep if need it.</p>
                 <p className="text-green-600 mt-5 text-center subtitle ">Complements</p>
                 <ul className="mt-5">
                 <li className="subtitle text-center mt-2">Docker</li>
