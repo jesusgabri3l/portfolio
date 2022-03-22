@@ -17,6 +17,7 @@ export default function Home() {
           <meta name="googlebot" content="all" />
           <meta name="keywords" content="Web developer, Frontend developer, Backend developer, Freelancer, UI/UX, Vue.js, React, Svelte, Node.js, Express"/>
           <meta name="author" content="Jesús Gabriel" />
+          <link rel="canonical" href="https://jesusgabri3l.vercel.app"/>
           <link rel="icon" href="/favicon.ico" />
           <link href="//db.onlinewebfonts.com/c/23c0fcab84d99da0de762de7e220a6e1?family=Europa" rel="stylesheet" type="text/css"/>
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
