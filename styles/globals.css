@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 html,
 body {
   padding: 0;
@@ -13,4 +17,125 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: eurostile;
+  src: url(eurostile/EuroStyle\ Normal.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: eurostile;
+  src: url(eurostile/EurostileBold.ttf);
+  font-weight: 700;
+}
+:root{
+  --breakpoint : 1120px;
+}
+.title{
+  font-family: eurostile, serif;
+}
+.title.is-blue{
+  color: #141c3a;
+}
+.subtitle.is-black{
+  color: rgba(10, 10, 10, 0.9);
+}
+.subtitle{
+  font-family: 'Montserrat', sans-serif;
+}
+.skills{
+  min-height:80vh;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 50px;
+  background-color:  rgba(255, 255, 255, 0.95);
+  border: 1px solid #E6ECF8;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.skill{
+  border: 1px solid #E6ECF8;
+  padding: 3rem;
+  border-radius: 10px;
+  background-color: transparent;
+}
+.projects{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  column-gap: 80px;
+  row-gap: 80px;
+}
+.project{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  background-color: rgb(250, 250, 250);
+  box-shadow: 0 3px 6px rgba(0,0,0, .16);
+  height: 300px;
+  border-radius: 15px;
+  padding: 1rem;
+}
+.project__img{
+  height: 100%;
+  border: 1px solid #ccc;
+  object-fit: cover;
+  padding: 5px;
+  border-radius: 10px;
+}
+.project__info{
+  padding: 15px;
+}
+.project__info__links{
+  display: flex;
+}
+.project__info__link{
+  color: rgb(49, 49, 179);
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 25px;
+}
+.project__info__tags{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.project__info__tag{
+  display: inline-block;
+  width: 45%;
+  background-color: rgba(22, 163, 74, 0.3);
+  color: rgba(22, 163, 74, 1);
+  border-radius: 15px;
+  margin-top: 15px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+.current{
+  width: 100%;
+  margin-top: 50px;
+  border-radius: 10px;
+  background-color:  rgba(255, 255, 255, 0.95);
+  border: 1px solid #E6ECF8;
+  padding: 1rem;
+}
+@media only screen and (max-width: 1400px) {
+  .projects{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 1120px) {
+  .skills{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .skill{
+    padding: 3rem 2rem;
+  }
+  .projects{
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
