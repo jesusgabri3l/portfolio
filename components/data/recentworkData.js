@@ -6,6 +6,8 @@ import cms from '../../public/cms.png'
 import hush from '../../public/hush.png'
 import todo from '../../public/todo.png'
 import random from '../../public/random.png'
+import iptracker from '../../public/ip-tracker.png'
+
 
 
 
@@ -18,6 +20,14 @@ const projects = [
         code: 'https://github.com/jesusgabri3l/portfolio',
         website: '',
         tags: ['Next.js', 'BEM', 'Tailwind', 'SSR']
+    },
+    {   
+        id: 8,
+        name: 'IP-Geolocator',
+        img: iptracker,
+        code: 'https://github.com/jesusgabri3l/ip-geolocator',
+        website: 'https://jesusgabri3l.github.io/ip-geolocator/',
+        tags: ['React', 'SCSS', 'REST API', 'Map']
     },
     {   
         id: 2,
@@ -73,7 +83,7 @@ const projects = [
         name: 'Random Character',
         img: random,
         code: 'https://github.com/jesusgabri3l/RandomCharacter',
-        backend: 'https://jesusgabri3l.github.io/RandomCharacter/',
+        website: 'https://jesusgabri3l.github.io/RandomCharacter/',
         tags: ['React', 'SCSS', 'Rest API']
     }
 ];
